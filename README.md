@@ -100,3 +100,30 @@ git remote add origin https://github.com/burmeweb/insightful-ai-social.git
 git branch -M main
 git push -u origin main
 ```
+# Bash Firebase 
+```
+# Install Firebase CLI
+npm install -g firebase-tools
+
+# Login to Firebase
+firebase login
+
+# Initialize Firebase project
+firebase init
+
+# Select:
+# - Hosting
+# - Use existing project
+# - Public directory: dist
+# - Single-page app: Yes
+# - Don't overwrite index.html
+
+# Build project
+npm run build
+
+# Deploy to Firebase
+firebase deploy
+
+# Deploy with specific project
+firebase deploy --project insightful-ai-b3hca
+```
