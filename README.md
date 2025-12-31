@@ -82,3 +82,21 @@ Webapp
 ├── vite.config.js
 └── README.md
 ```
+# Bash
+```
+# Initialize git repository
+git init
+
+# Add all files
+git add .
+
+# Initial commit
+git commit -m "Initial commit: Insightful AI Social Platform"
+
+# Add remote repository
+git remote add origin https://github.com/burmeweb/insightful-ai-social.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
+```
